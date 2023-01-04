@@ -21,6 +21,10 @@ body {
   border: 1px solid #fff;
   padding: 15px 46px;
   text-decoration: none;
+  transition: 0.3s;
+  &:active {
+    transform: scale(0.96);
+  }
 }
 
 .btn-blue {
@@ -62,6 +66,42 @@ h1 {
   font-weight: 500;
   font-size: 80px;
   letter-spacing: 0.2px;
+  span {
+    display: none;
+  }
+  &:hover {
+    span {
+      display: inline;
+    }
+  }
+}
+
+input {
+  outline: none;
+}
+
+input:focus {
+  border: 3px solid green;
+}
+
+input.error:focus {
+  border: 3px solid red;
+}
+
+ul {
+  list-style: none;
+  a {
+    color: hotpink;
+  }
+
+  li {
+    color: red;
+    &:nth-child(even) {
+      a {
+        color: green;
+      }
+    }
+  }
 }
 
 .text-title {
