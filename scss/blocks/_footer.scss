@@ -1,0 +1,16 @@
+.phone-number {
+  color: #ffffff;
+  position: relative;
+  padding-left: 40px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../img/phone.svg);
+    background-size: contain;
+  }
+}

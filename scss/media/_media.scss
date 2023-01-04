@@ -1,0 +1,170 @@
+@media (max-width: 930px) {
+  section {
+    padding: 50px 0;
+  }
+
+  .title {
+    font-size: 45px;
+    line-height: 1;
+  }
+
+  .promo {
+    padding: 70px 0;
+  }
+
+  .promo-title {
+    font-size: 60px;
+  }
+
+  .features {
+    padding-bottom: 100px;
+  }
+
+  .features-item {
+    margin: 30px 0;
+  }
+
+  .features-title {
+    font-size: 45px;
+    line-height: 1;
+  }
+
+  .features-item-title {
+    font-size: 16px;
+  }
+
+  .features-item-descr {
+    font-size: 14px;
+  }
+
+  .aside-item-content {
+    padding: 40px 60px;
+  }
+
+  .aside-item-text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 730px) {
+  .promo {
+    padding: 65px 0;
+  }
+
+  .promo-title {
+    font-size: 50px;
+  }
+  .promo-text {
+    margin: 20px 0 55px;
+    font-size: 16px;
+  }
+
+  .features {
+    padding-bottom: 50px;
+  }
+
+  .features-wrapper {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .features-img {
+    max-width: 490px;
+  }
+
+  .features-img-big {
+    width: 100%;
+  }
+
+  .features-img-small {
+    width: 67%;
+    right: 81px;
+    bottom: -100px;
+  }
+
+  .features-items {
+    padding-top: 115px;
+  }
+
+  .features-item {
+    margin: 50px 0;
+  }
+
+  .features-item-title {
+    font-size: 20px;
+  }
+
+  .features-item-descr {
+    font-size: 16px;
+  }
+
+  .contents-items {
+    row-gap: 33px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .gallery-items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery-item-img {
+    width: 40%;
+  }
+
+  .partners-items {
+    gap: 40px;
+  }
+
+  .testimonials-item {
+    width: 100%;
+  }
+
+  .aside-item-content {
+    padding: 20px 30px;
+  }
+
+  .aside-item {
+    background: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aside-item img {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .aside-item-text {
+    margin-bottom: 60px;
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 530px) {
+  .promo-title {
+    font-size: 36px;
+  }
+
+  .contents-item {
+    width: 353px;
+  }
+
+  .gallery-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-item-img {
+    width: 65%;
+    height: 285px;
+    object-fit: cover;
+  }
+}

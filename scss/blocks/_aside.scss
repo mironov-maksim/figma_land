@@ -1,0 +1,27 @@
+.aside-item {
+  border-radius: 33px;
+  max-width: 1215px;
+  width: 100%;
+  background: #343434;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  overflow: hidden;
+  img {
+    width: 48%;
+    object-fit: cover;
+  }
+}
+
+.aside-item-text {
+  font-size: 52px;
+  margin-bottom: 40px;
+}
+
+.aside-item-content {
+  padding: 61px 80px;
+}
+
+.aside {
+  padding: 0 15px;
+}

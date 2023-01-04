@@ -1,0 +1,31 @@
+.testimonials-items {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 963px;
+  column-gap: 23px;
+  row-gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.testimonials-item {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 40px;
+  width: 48%;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
+.testimonials-item-header {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.testimonials-item-title {
+  font-weight: 500;
+  margin-left: 23px;
+  font-size: 16px;
+}
